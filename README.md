@@ -6,9 +6,13 @@
 ## Metal 学习资料参考
 
 [Metal框架详细解析（三十一） —— 在视图中混合Metal和OpenGL渲染（一）](https://www.jianshu.com/p/3288a18173ed)
+
 [Metal入门资料001-Metal framework介绍](https://www.jianshu.com/p/2517ad248935)
+
 [Metal框架详细解析（四十二） —— Metal编程指南之图形渲染：渲染命令编码器之Part 2（七）](https://www.jianshu.com/p/72447db4bff8)
 https://github.com/zhangfangtaozft/Metal-Tutorial
+
+[AR 学习之路整理：我看过的那些 Metal 与数学书籍](https://juejin.cn/post/7030422353788010504)
 
 
 ## Metal Debug 相关
