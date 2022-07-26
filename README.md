@@ -15,6 +15,12 @@ https://github.com/zhangfangtaozft/Metal-Tutorial
 [AR 学习之路整理：我看过的那些 Metal 与数学书籍](https://juejin.cn/post/7030422353788010504)
 
 
+[LearnMetal](https://github.com/xiaerfei/LearnMetal)
+
+[Metal入门教程（一）图片绘制](https://www.jianshu.com/p/cddf73c6c05e)
+
+[MetalByTutorials](https://github.com/dreamerwings/MetalByTutorials)
+
 ## Metal Debug 相关
 
 [Capturing GPU Command Data Programmatically](https://developer.apple.com/documentation/metal/debugging_tools/capturing_gpu_command_data_programmatically?language=objc)
