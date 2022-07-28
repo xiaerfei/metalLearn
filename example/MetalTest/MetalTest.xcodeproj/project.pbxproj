@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DCBED704C72284736BB11D /* Pods_MetalTest_MetalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9528603836A9930F58611462 /* Pods_MetalTest_MetalTestUITests.framework */; };
+		153BBF30E157ABDEF400F75F /* Pods_MetalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE7863D95D584821EA1764A /* Pods_MetalTest.framework */; };
+		214D48905A0EE9C73847C6BE /* Pods_MetalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA85DEF8480F1ECEA4FAF573 /* Pods_MetalTestTests.framework */; };
+		8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F0E2890FAF40075166E /* AppDelegate.m */; };
+		8AE04F122890FAF40075166E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F112890FAF40075166E /* ViewController.m */; };
+		8AE04F142890FAFF0075166E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE04F132890FAFF0075166E /* Assets.xcassets */; };
+		8AE04F172890FAFF0075166E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE04F152890FAFF0075166E /* Main.storyboard */; };
+		8AE04F192890FAFF0075166E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F182890FAFF0075166E /* main.m */; };
+		8AE04F242890FAFF0075166E /* MetalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F232890FAFF0075166E /* MetalTestTests.m */; };
+		8AE04F2E2890FB000075166E /* MetalTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F2D2890FB000075166E /* MetalTestUITests.m */; };
+		8AE04F302890FB000075166E /* MetalTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F2F2890FB000075166E /* MetalTestUITestsLaunchTests.m */; };
+		8AE04F3F2890FC2E0075166E /* DrawPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F3E2890FC2E0075166E /* DrawPictureViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE04F202890FAFF0075166E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE04F022890FAF40075166E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE04F092890FAF40075166E;
+			remoteInfo = MetalTest;
+		};
+		8AE04F2A2890FAFF0075166E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE04F022890FAF40075166E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE04F092890FAF40075166E;
+			remoteInfo = MetalTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D7E4BED4B215559D503715E /* Pods-MetalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTestTests.release.xcconfig"; path = "Target Support Files/Pods-MetalTestTests/Pods-MetalTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MetalTestTests/Pods-MetalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE04F0A2890FAF40075166E /* MetalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE04F0D2890FAF40075166E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AE04F0E2890FAF40075166E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AE04F102890FAF40075166E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AE04F112890FAF40075166E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AE04F132890FAFF0075166E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AE04F162890FAFF0075166E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AE04F182890FAFF0075166E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE04F1A2890FAFF0075166E /* MetalTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalTest.entitlements; sourceTree = "<group>"; };
+		8AE04F1F2890FAFF0075166E /* MetalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE04F232890FAFF0075166E /* MetalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalTestTests.m; sourceTree = "<group>"; };
+		8AE04F292890FAFF0075166E /* MetalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE04F2D2890FB000075166E /* MetalTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalTestUITests.m; sourceTree = "<group>"; };
+		8AE04F2F2890FB000075166E /* MetalTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8AE04F3D2890FC2E0075166E /* DrawPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPictureViewController.h; sourceTree = "<group>"; };
+		8AE04F3E2890FC2E0075166E /* DrawPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPictureViewController.m; sourceTree = "<group>"; };
+		8F59F66DC27F30DE7CB3EAB0 /* Pods-MetalTest-MetalTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTest-MetalTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MetalTest-MetalTestUITests/Pods-MetalTest-MetalTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9528603836A9930F58611462 /* Pods_MetalTest_MetalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalTest_MetalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79D91CCB1CA885AAB7248FB /* Pods-MetalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTest.release.xcconfig"; path = "Target Support Files/Pods-MetalTest/Pods-MetalTest.release.xcconfig"; sourceTree = "<group>"; };
+		CA85DEF8480F1ECEA4FAF573 /* Pods_MetalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39FF4E446115350E5B55AA2 /* Pods-MetalTest-MetalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTest-MetalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MetalTest-MetalTestUITests/Pods-MetalTest-MetalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE7863D95D584821EA1764A /* Pods_MetalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6974871C9878067E4907657 /* Pods-MetalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTest.debug.xcconfig"; path = "Target Support Files/Pods-MetalTest/Pods-MetalTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE04F072890FAF40075166E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153BBF30E157ABDEF400F75F /* Pods_MetalTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F1C2890FAFF0075166E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214D48905A0EE9C73847C6BE /* Pods_MetalTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F262890FAFF0075166E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DCBED704C72284736BB11D /* Pods_MetalTest_MetalTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F70395707FDE37E7C273DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6974871C9878067E4907657 /* Pods-MetalTest.debug.xcconfig */,
+				B79D91CCB1CA885AAB7248FB /* Pods-MetalTest.release.xcconfig */,
+				D39FF4E446115350E5B55AA2 /* Pods-MetalTest-MetalTestUITests.debug.xcconfig */,
+				8F59F66DC27F30DE7CB3EAB0 /* Pods-MetalTest-MetalTestUITests.release.xcconfig */,
+				44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */,
+				2D7E4BED4B215559D503715E /* Pods-MetalTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AE04F012890FAF40075166E = {
+			isa = PBXGroup;
+			children = (
+				8AE04F0C2890FAF40075166E /* MetalTest */,
+				8AE04F222890FAFF0075166E /* MetalTestTests */,
+				8AE04F2C2890FAFF0075166E /* MetalTestUITests */,
+				8AE04F0B2890FAF40075166E /* Products */,
+				71F70395707FDE37E7C273DF /* Pods */,
+				B8142DF41F50DA98C717EB6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE04F0B2890FAF40075166E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE04F0A2890FAF40075166E /* MetalTest.app */,
+				8AE04F1F2890FAFF0075166E /* MetalTestTests.xctest */,
+				8AE04F292890FAFF0075166E /* MetalTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE04F0C2890FAF40075166E /* MetalTest */ = {
+			isa = PBXGroup;
+			children = (
+				8AE04F0D2890FAF40075166E /* AppDelegate.h */,
+				8AE04F0E2890FAF40075166E /* AppDelegate.m */,
+				8AE04F102890FAF40075166E /* ViewController.h */,
+				8AE04F112890FAF40075166E /* ViewController.m */,
+				8AE04F3C2890FC050075166E /* 绘制图片 */,
+				8AE04F132890FAFF0075166E /* Assets.xcassets */,
+				8AE04F152890FAFF0075166E /* Main.storyboard */,
+				8AE04F182890FAFF0075166E /* main.m */,
+				8AE04F1A2890FAFF0075166E /* MetalTest.entitlements */,
+			);
+			path = MetalTest;
+			sourceTree = "<group>";
+		};
+		8AE04F222890FAFF0075166E /* MetalTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE04F232890FAFF0075166E /* MetalTestTests.m */,
+			);
+			path = MetalTestTests;
+			sourceTree = "<group>";
+		};
+		8AE04F2C2890FAFF0075166E /* MetalTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE04F2D2890FB000075166E /* MetalTestUITests.m */,
+				8AE04F2F2890FB000075166E /* MetalTestUITestsLaunchTests.m */,
+			);
+			path = MetalTestUITests;
+			sourceTree = "<group>";
+		};
+		8AE04F3C2890FC050075166E /* 绘制图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8AE04F3D2890FC2E0075166E /* DrawPictureViewController.h */,
+				8AE04F3E2890FC2E0075166E /* DrawPictureViewController.m */,
+			);
+			path = "绘制图片";
+			sourceTree = "<group>";
+		};
+		B8142DF41F50DA98C717EB6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBE7863D95D584821EA1764A /* Pods_MetalTest.framework */,
+				9528603836A9930F58611462 /* Pods_MetalTest_MetalTestUITests.framework */,
+				CA85DEF8480F1ECEA4FAF573 /* Pods_MetalTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE04F092890FAF40075166E /* MetalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE04F332890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTest" */;
+			buildPhases = (
+				9A4AA981D478803F7778B1F1 /* [CP] Check Pods Manifest.lock */,
+				8AE04F062890FAF40075166E /* Sources */,
+				8AE04F072890FAF40075166E /* Frameworks */,
+				8AE04F082890FAF40075166E /* Resources */,
+				7884E1C3FE9847EDB4DDF6F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalTest;
+			productName = MetalTest;
+			productReference = 8AE04F0A2890FAF40075166E /* MetalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AE04F1E2890FAFF0075166E /* MetalTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE04F362890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTestTests" */;
+			buildPhases = (
+				6CD8A3FC7B8530DC0E017633 /* [CP] Check Pods Manifest.lock */,
+				8AE04F1B2890FAFF0075166E /* Sources */,
+				8AE04F1C2890FAFF0075166E /* Frameworks */,
+				8AE04F1D2890FAFF0075166E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE04F212890FAFF0075166E /* PBXTargetDependency */,
+			);
+			name = MetalTestTests;
+			productName = MetalTestTests;
+			productReference = 8AE04F1F2890FAFF0075166E /* MetalTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AE04F282890FAFF0075166E /* MetalTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE04F392890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTestUITests" */;
+			buildPhases = (
+				F5FF21CB92DB410E45A32610 /* [CP] Check Pods Manifest.lock */,
+				8AE04F252890FAFF0075166E /* Sources */,
+				8AE04F262890FAFF0075166E /* Frameworks */,
+				8AE04F272890FAFF0075166E /* Resources */,
+				9DE835D1C52B905A582DB11C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE04F2B2890FAFF0075166E /* PBXTargetDependency */,
+			);
+			name = MetalTestUITests;
+			productName = MetalTestUITests;
+			productReference = 8AE04F292890FAFF0075166E /* MetalTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE04F022890FAF40075166E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8AE04F092890FAF40075166E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8AE04F1E2890FAFF0075166E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8AE04F092890FAF40075166E;
+					};
+					8AE04F282890FAFF0075166E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8AE04F092890FAF40075166E;
+					};
+				};
+			};
+			buildConfigurationList = 8AE04F052890FAF40075166E /* Build configuration list for PBXProject "MetalTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE04F012890FAF40075166E;
+			productRefGroup = 8AE04F0B2890FAF40075166E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE04F092890FAF40075166E /* MetalTest */,
+				8AE04F1E2890FAFF0075166E /* MetalTestTests */,
+				8AE04F282890FAFF0075166E /* MetalTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE04F082890FAF40075166E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE04F142890FAFF0075166E /* Assets.xcassets in Resources */,
+				8AE04F172890FAFF0075166E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F1D2890FAFF0075166E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F272890FAFF0075166E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CD8A3FC7B8530DC0E017633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetalTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7884E1C3FE9847EDB4DDF6F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetalTest/Pods-MetalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetalTest/Pods-MetalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetalTest/Pods-MetalTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4AA981D478803F7778B1F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE835D1C52B905A582DB11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetalTest-MetalTestUITests/Pods-MetalTest-MetalTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetalTest-MetalTestUITests/Pods-MetalTest-MetalTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetalTest-MetalTestUITests/Pods-MetalTest-MetalTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5FF21CB92DB410E45A32610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetalTest-MetalTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE04F062890FAF40075166E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE04F122890FAF40075166E /* ViewController.m in Sources */,
+				8AE04F192890FAFF0075166E /* main.m in Sources */,
+				8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */,
+				8AE04F3F2890FC2E0075166E /* DrawPictureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F1B2890FAFF0075166E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE04F242890FAFF0075166E /* MetalTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE04F252890FAFF0075166E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE04F302890FB000075166E /* MetalTestUITestsLaunchTests.m in Sources */,
+				8AE04F2E2890FB000075166E /* MetalTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE04F212890FAFF0075166E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE04F092890FAF40075166E /* MetalTest */;
+			targetProxy = 8AE04F202890FAFF0075166E /* PBXContainerItemProxy */;
+		};
+		8AE04F2B2890FAFF0075166E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE04F092890FAF40075166E /* MetalTest */;
+			targetProxy = 8AE04F2A2890FAFF0075166E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AE04F152890FAFF0075166E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE04F162890FAFF0075166E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE04F312890FB000075166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AE04F322890FB000075166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8AE04F342890FB000075166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6974871C9878067E4907657 /* Pods-MetalTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalTest/MetalTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		8AE04F352890FB000075166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79D91CCB1CA885AAB7248FB /* Pods-MetalTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalTest/MetalTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		8AE04F372890FB000075166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalTest.app/Contents/MacOS/MetalTest";
+			};
+			name = Debug;
+		};
+		8AE04F382890FB000075166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7E4BED4B215559D503715E /* Pods-MetalTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalTest.app/Contents/MacOS/MetalTest";
+			};
+			name = Release;
+		};
+		8AE04F3A2890FB000075166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39FF4E446115350E5B55AA2 /* Pods-MetalTest-MetalTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalTest;
+			};
+			name = Debug;
+		};
+		8AE04F3B2890FB000075166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F59F66DC27F30DE7CB3EAB0 /* Pods-MetalTest-MetalTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29J22D29N7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metal.xia.MetalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE04F052890FAF40075166E /* Build configuration list for PBXProject "MetalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE04F312890FB000075166E /* Debug */,
+				8AE04F322890FB000075166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE04F332890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE04F342890FB000075166E /* Debug */,
+				8AE04F352890FB000075166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE04F362890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE04F372890FB000075166E /* Debug */,
+				8AE04F382890FB000075166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE04F392890FB000075166E /* Build configuration list for PBXNativeTarget "MetalTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE04F3A2890FB000075166E /* Debug */,
+				8AE04F3B2890FB000075166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE04F022890FAF40075166E /* Project object */;
+}
