@@ -10,6 +10,7 @@
 		06DCBED704C72284736BB11D /* Pods_MetalTest_MetalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9528603836A9930F58611462 /* Pods_MetalTest_MetalTestUITests.framework */; };
 		153BBF30E157ABDEF400F75F /* Pods_MetalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE7863D95D584821EA1764A /* Pods_MetalTest.framework */; };
 		214D48905A0EE9C73847C6BE /* Pods_MetalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA85DEF8480F1ECEA4FAF573 /* Pods_MetalTestTests.framework */; };
+		8A7713E928939E910043073C /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A7713E828939E900043073C /* shaders.metal */; };
 		8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F0E2890FAF40075166E /* AppDelegate.m */; };
 		8AE04F122890FAF40075166E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F112890FAF40075166E /* ViewController.m */; };
 		8AE04F142890FAFF0075166E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE04F132890FAFF0075166E /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		2D7E4BED4B215559D503715E /* Pods-MetalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTestTests.release.xcconfig"; path = "Target Support Files/Pods-MetalTestTests/Pods-MetalTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MetalTestTests/Pods-MetalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7713E828939E900043073C /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
+		8A7713EA28939EC40043073C /* LYShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYShaderTypes.h; sourceTree = "<group>"; };
 		8AE04F0A2890FAF40075166E /* MetalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE04F0D2890FAF40075166E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE04F0E2890FAF40075166E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,7 +107,6 @@
 				44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */,
 				2D7E4BED4B215559D503715E /* Pods-MetalTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,6 +170,8 @@
 			children = (
 				8AE04F3D2890FC2E0075166E /* DrawPictureViewController.h */,
 				8AE04F3E2890FC2E0075166E /* DrawPictureViewController.m */,
+				8A7713E828939E900043073C /* shaders.metal */,
+				8A7713EA28939EC40043073C /* LYShaderTypes.h */,
 			);
 			path = "绘制图片";
 			sourceTree = "<group>";
@@ -420,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE04F122890FAF40075166E /* ViewController.m in Sources */,
+				8A7713E928939E910043073C /* shaders.metal in Sources */,
 				8AE04F192890FAFF0075166E /* main.m in Sources */,
 				8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */,
 				8AE04F3F2890FC2E0075166E /* DrawPictureViewController.m in Sources */,

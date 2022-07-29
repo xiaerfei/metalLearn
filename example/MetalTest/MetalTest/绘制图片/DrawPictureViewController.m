@@ -8,16 +8,7 @@
 #import "DrawPictureViewController.h"
 #import <MetalKit/MetalKit.h>
 #import <Masonry.h>
-
-typedef struct {
-    vector_float4 position;
-    vector_float2 textureCoordinate;
-} LYVertex;
-
-
-
-
-
+#import "LYShaderTypes.h"
 
 @interface DrawPictureViewController () <MTKViewDelegate>
 
@@ -47,10 +38,15 @@ typedef struct {
     self.mtkView.device = MTLCreateSystemDefaultDevice(); // 获取默认的device
     self.mtkView.delegate = self;
     
-    
+    self.viewportSize = (vector_uint2){self.mtkView.drawableSize.width, self.mtkView.drawableSize.height};
+    [self customInit];
 }
 
-
+- (void)customInit {
+    [self setupPipeline];
+    [self setupVertex];
+    [self setupTexture];
+}
 // 设置渲染管道
 -(void)setupPipeline {
     id<MTLLibrary> defaultLibrary = [self.mtkView.device newDefaultLibrary]; // .metal
@@ -129,15 +125,54 @@ typedef struct {
     [NSGraphicsContext setCurrentContext:gctx];
     [image drawInRect:imageRect];
 
-    uint32_t* pixel = (uint32_t*)CGBitmapContextGetData(ctx);
-
+    
+    Byte * pixel = (Byte*)CGBitmapContextGetData(ctx);
+    Byte * data  = (Byte *) calloc(imageSize.width * imageSize.height * 4, sizeof(Byte)); //rgba共4个byte
+    
+    memcpy(data, pixel, imageSize.width * imageSize.height * 4);
+    
     [NSGraphicsContext setCurrentContext:nil];
     CGContextRelease(ctx);
     CGColorSpaceRelease(colorSpace);
     
-    
+    return data;
 }
 
+#pragma mark - delegate
 
+- (void)mtkView:(MTKView *)view drawableSizeWillChange:(CGSize)size {
+    self.viewportSize = (vector_uint2){size.width, size.height};
+}
+
+- (void)drawInMTKView:(MTKView *)view {
+    // 每次渲染都要单独创建一个CommandBuffer
+    id<MTLCommandBuffer> commandBuffer = [self.commandQueue commandBuffer];
+    MTLRenderPassDescriptor *renderPassDescriptor = view.currentRenderPassDescriptor;
+    // MTLRenderPassDescriptor描述一系列attachments的值，类似GL的FrameBuffer；同时也用来创建MTLRenderCommandEncoder
+    if(renderPassDescriptor != nil)
+    {
+        renderPassDescriptor.colorAttachments[0].clearColor = MTLClearColorMake(0.0, 0.5, 0.5, 1.0f); // 设置默认颜色
+        id<MTLRenderCommandEncoder> renderEncoder = [commandBuffer renderCommandEncoderWithDescriptor:renderPassDescriptor]; //编码绘制指令的Encoder
+        [renderEncoder setViewport:(MTLViewport){0.0, 0.0, self.viewportSize.x, self.viewportSize.y, -1.0, 1.0 }]; // 设置显示区域
+        [renderEncoder setRenderPipelineState:self.pipelineState]; // 设置渲染管道，以保证顶点和片元两个shader会被调用
+        
+        [renderEncoder setVertexBuffer:self.vertices
+                                offset:0
+                               atIndex:0]; // 设置顶点缓存
+
+        [renderEncoder setFragmentTexture:self.texture
+                                  atIndex:0]; // 设置纹理
+        
+        [renderEncoder drawPrimitives:MTLPrimitiveTypeTriangle
+                          vertexStart:0
+                          vertexCount:self.numVertices]; // 绘制
+        
+        [renderEncoder endEncoding]; // 结束
+        
+        [commandBuffer presentDrawable:view.currentDrawable]; // 显示
+    }
+    
+    [commandBuffer commit]; // 提交；
+}
 
 @end
