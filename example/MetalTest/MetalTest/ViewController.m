@@ -7,13 +7,31 @@
 
 #import "ViewController.h"
 
+
+@interface ViewController ()
+@property (strong) IBOutlet NSSearchField *searchField;
+
+@end
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // Do any additional setup after loading the view.
+    NSSearchFieldCell *cell = self.searchField.cell;
+    cell.searchButtonCell = nil;
+    NSLog(@"%@", cell);
+    
+    cell.cancelButtonCell = [[NSButtonCell alloc] initImageCell:[NSImage imageNamed:@"ddd"]];
+    cell.cancelButtonCell.backgroundColor = [NSColor grayColor];
+    cell.cancelButtonCell.target = self;
+    cell.cancelButtonCell.action = @selector(cancellAction:);
 }
+
+- (void)cancellAction:(NSButtonCell *)cell {
+    self.searchField.cell.stringValue = @"";
+}
+
 
 
 - (void)setRepresentedObject:(id)representedObject {

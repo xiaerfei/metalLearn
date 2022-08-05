@@ -11,6 +11,7 @@
 		153BBF30E157ABDEF400F75F /* Pods_MetalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE7863D95D584821EA1764A /* Pods_MetalTest.framework */; };
 		214D48905A0EE9C73847C6BE /* Pods_MetalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA85DEF8480F1ECEA4FAF573 /* Pods_MetalTestTests.framework */; };
 		8A7713E928939E910043073C /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A7713E828939E900043073C /* shaders.metal */; };
+		8ACDDC15289A38A6006B87FC /* CusTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDDC14289A38A6006B87FC /* CusTextFieldCell.m */; };
 		8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F0E2890FAF40075166E /* AppDelegate.m */; };
 		8AE04F122890FAF40075166E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE04F112890FAF40075166E /* ViewController.m */; };
 		8AE04F142890FAFF0075166E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE04F132890FAFF0075166E /* Assets.xcassets */; };
@@ -44,6 +45,8 @@
 		44DAD06111963B22DF75BCB0 /* Pods-MetalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MetalTestTests/Pods-MetalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A7713E828939E900043073C /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
 		8A7713EA28939EC40043073C /* LYShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYShaderTypes.h; sourceTree = "<group>"; };
+		8ACDDC13289A38A6006B87FC /* CusTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CusTextFieldCell.h; sourceTree = "<group>"; };
+		8ACDDC14289A38A6006B87FC /* CusTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CusTextFieldCell.m; sourceTree = "<group>"; };
 		8AE04F0A2890FAF40075166E /* MetalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE04F0D2890FAF40075166E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE04F0E2890FAF40075166E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				8AE04F0E2890FAF40075166E /* AppDelegate.m */,
 				8AE04F102890FAF40075166E /* ViewController.h */,
 				8AE04F112890FAF40075166E /* ViewController.m */,
+				8ACDDC13289A38A6006B87FC /* CusTextFieldCell.h */,
+				8ACDDC14289A38A6006B87FC /* CusTextFieldCell.m */,
 				8AE04F3C2890FC050075166E /* 绘制图片 */,
 				8AE04F132890FAFF0075166E /* Assets.xcassets */,
 				8AE04F152890FAFF0075166E /* Main.storyboard */,
@@ -428,6 +433,7 @@
 				8AE04F192890FAFF0075166E /* main.m in Sources */,
 				8AE04F0F2890FAF40075166E /* AppDelegate.m in Sources */,
 				8AE04F3F2890FC2E0075166E /* DrawPictureViewController.m in Sources */,
+				8ACDDC15289A38A6006B87FC /* CusTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
