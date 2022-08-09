@@ -21,8 +21,8 @@
 		4EB56FAB28A10935007C7B81 /* shader_more_properties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56FA928A10935007C7B81 /* shader_more_properties.cpp */; };
 		4EB56FAF28A10CA2007C7B81 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56FAD28A10CA2007C7B81 /* Shader.cpp */; };
 		4EB56FB228A10F1F007C7B81 /* shader_use_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56FB028A10F1F007C7B81 /* shader_use_class.cpp */; };
-		4EB56FB528A1103E007C7B81 /* vertext.vs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB56FB428A1103E007C7B81 /* vertext.vs */; };
-		4EB56FB728A11111007C7B81 /* fragment.fs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB56FB628A11111007C7B81 /* fragment.fs */; };
+		4EB56FB528A1103E007C7B81 /* shader_use_vertext.vs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB56FB428A1103E007C7B81 /* shader_use_vertext.vs */; };
+		4EB56FB728A11111007C7B81 /* shader_use_fragment.fs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB56FB628A11111007C7B81 /* shader_use_fragment.fs */; };
 		4EB56FBB28A114BC007C7B81 /* texture_show.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56FB928A114BC007C7B81 /* texture_show.cpp */; };
 		8012EC332269C91D006FB6E1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8012EC322269C91D006FB6E1 /* GLUT.framework */; };
 		8012EC472269D1C7006FB6E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8012EC462269D1C7006FB6E1 /* main.cpp */; };
@@ -33,6 +33,10 @@
 		80470AD52297D97800660532 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80470AD42297D97800660532 /* libglfw.3.3.dylib */; };
 		80470AD72297D9BA00660532 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80470AD62297D9BA00660532 /* libGLTools.a */; };
 		80D254DE2294F24F00BE49AA /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 80D254DC2294F24F00BE49AA /* glad.c */; };
+		8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35828A217AA0060BE84 /* wall.jpeg */; };
+		8AC7A35C28A219E60060BE84 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A35B28A219E60060BE84 /* stb_image.cpp */; };
+		8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */; };
+		8AC7A36028A21B380060BE84 /* texture_pic_fragment.fs in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35F28A21B380060BE84 /* texture_pic_fragment.fs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +87,8 @@
 		4EB56FAE28A10CA2007C7B81 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		4EB56FB028A10F1F007C7B81 /* shader_use_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shader_use_class.cpp; sourceTree = "<group>"; };
 		4EB56FB128A10F1F007C7B81 /* sharder_use_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sharder_use_class.hpp; sourceTree = "<group>"; };
-		4EB56FB428A1103E007C7B81 /* vertext.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertext.vs; sourceTree = "<group>"; };
-		4EB56FB628A11111007C7B81 /* fragment.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fragment.fs; sourceTree = "<group>"; };
+		4EB56FB428A1103E007C7B81 /* shader_use_vertext.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_use_vertext.vs; sourceTree = "<group>"; };
+		4EB56FB628A11111007C7B81 /* shader_use_fragment.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader_use_fragment.fs; sourceTree = "<group>"; };
 		4EB56FB928A114BC007C7B81 /* texture_show.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = texture_show.cpp; sourceTree = "<group>"; };
 		4EB56FBA28A114BC007C7B81 /* texture_show.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = texture_show.hpp; sourceTree = "<group>"; };
 		8012EC322269C91D006FB6E1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -120,6 +124,11 @@
 		80D254DB2294F24F00BE49AA /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
 		80D254DC2294F24F00BE49AA /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		80D254DD2294F24F00BE49AA /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
+		8AC7A35828A217AA0060BE84 /* wall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpeg; sourceTree = "<group>"; };
+		8AC7A35A28A2191D0060BE84 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		8AC7A35B28A219E60060BE84 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture_pic_vertex.vs; sourceTree = "<group>"; };
+		8AC7A35F28A21B380060BE84 /* texture_pic_fragment.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture_pic_fragment.fs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +218,8 @@
 			children = (
 				4EB56FAD28A10CA2007C7B81 /* Shader.cpp */,
 				4EB56FAE28A10CA2007C7B81 /* Shader.hpp */,
+				8AC7A35A28A2191D0060BE84 /* stb_image.h */,
+				8AC7A35B28A219E60060BE84 /* stb_image.cpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -218,8 +229,8 @@
 			children = (
 				4EB56FB028A10F1F007C7B81 /* shader_use_class.cpp */,
 				4EB56FB128A10F1F007C7B81 /* sharder_use_class.hpp */,
-				4EB56FB428A1103E007C7B81 /* vertext.vs */,
-				4EB56FB628A11111007C7B81 /* fragment.fs */,
+				4EB56FB428A1103E007C7B81 /* shader_use_vertext.vs */,
+				4EB56FB628A11111007C7B81 /* shader_use_fragment.fs */,
 			);
 			path = shader_use_class;
 			sourceTree = "<group>";
@@ -227,8 +238,11 @@
 		4EB56FB828A1137C007C7B81 /* 4.纹理 */ = {
 			isa = PBXGroup;
 			children = (
+				8AC7A35828A217AA0060BE84 /* wall.jpeg */,
 				4EB56FB928A114BC007C7B81 /* texture_show.cpp */,
 				4EB56FBA28A114BC007C7B81 /* texture_show.hpp */,
+				8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */,
+				8AC7A35F28A21B380060BE84 /* texture_pic_fragment.fs */,
 			);
 			path = "4.纹理";
 			sourceTree = "<group>";
@@ -476,8 +490,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				802B6BA321A58F78004E7B8E /* Assets.xcassets in Resources */,
-				4EB56FB728A11111007C7B81 /* fragment.fs in Resources */,
-				4EB56FB528A1103E007C7B81 /* vertext.vs in Resources */,
+				8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */,
+				8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */,
+				4EB56FB728A11111007C7B81 /* shader_use_fragment.fs in Resources */,
+				8AC7A36028A21B380060BE84 /* texture_pic_fragment.fs in Resources */,
+				4EB56FB528A1103E007C7B81 /* shader_use_vertext.vs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +537,7 @@
 				4EB56F9A289E219C007C7B81 /* hello_opengl.cpp in Sources */,
 				80D254DE2294F24F00BE49AA /* glad.c in Sources */,
 				4EB56FA528A102D1007C7B81 /* shader_var_in_out.cpp in Sources */,
+				8AC7A35C28A219E60060BE84 /* stb_image.cpp in Sources */,
 				4EB56FA1289E9C1A007C7B81 /* draw_triangle_ebo.cpp in Sources */,
 				4EB56FBB28A114BC007C7B81 /* texture_show.cpp in Sources */,
 			);

@@ -13,10 +13,11 @@
 #include "shader_uniform.hpp"
 #include "shader_more_properties.hpp"
 #include "sharder_use_class.hpp"
+#include "texture_show.hpp"
 
 int main(int argc,char* argv[])
 {
-    shader_use_class();
+    texture_show();
     return 0;
 }
 

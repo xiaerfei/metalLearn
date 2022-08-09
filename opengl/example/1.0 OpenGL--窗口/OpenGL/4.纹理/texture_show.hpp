@@ -11,4 +11,7 @@
 
 #include <stdio.h>
 
+int texture_show();
+
+
 #endif /* texture_show_hpp */

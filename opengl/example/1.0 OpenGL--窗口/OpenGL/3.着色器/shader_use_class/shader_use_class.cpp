@@ -54,7 +54,7 @@ int shader_use_class() {
         return -1;
     }
     
-    Shader ourShader("vertext.vs", "fragment.fs");
+    Shader ourShader("shader_use_vertext.vs", "shader_use_fragment.fs");
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float vertices[] = {
