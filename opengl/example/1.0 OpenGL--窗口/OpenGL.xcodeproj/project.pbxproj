@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E95523028A2AC52002C2053 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E95522928A2A3E0002C2053 /* CoreFoundation.framework */; };
 		4E95523328A2B107002C2053 /* std_path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E95523128A2B107002C2053 /* std_path.cpp */; };
+		4E95523528A329BF002C2053 /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E95523428A329BF002C2053 /* container.jpg */; };
 		4EB56F9A289E219C007C7B81 /* hello_opengl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F98289E219C007C7B81 /* hello_opengl.cpp */; };
 		4EB56F9E289E52F6007C7B81 /* draw_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F9C289E52F6007C7B81 /* draw_triangle.cpp */; };
 		4EB56FA1289E9C1A007C7B81 /* draw_triangle_ebo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F9F289E9C1A007C7B81 /* draw_triangle_ebo.cpp */; };
@@ -56,6 +57,7 @@
 		4E95522928A2A3E0002C2053 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4E95523128A2B107002C2053 /* std_path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_path.cpp; sourceTree = "<group>"; };
 		4E95523228A2B107002C2053 /* std_path.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_path.hpp; sourceTree = "<group>"; };
+		4E95523428A329BF002C2053 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
 		4EB56F8A289E1B7C007C7B81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EB56F98289E219C007C7B81 /* hello_opengl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hello_opengl.cpp; sourceTree = "<group>"; };
 		4EB56F99289E219C007C7B81 /* hello_opengl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hello_opengl.hpp; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				8AC7A35828A217AA0060BE84 /* wall.jpeg */,
+				4E95523428A329BF002C2053 /* container.jpg */,
 				4EB56FB928A114BC007C7B81 /* texture_show.cpp */,
 				4EB56FBA28A114BC007C7B81 /* texture_show.hpp */,
 				8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */,
@@ -452,6 +455,7 @@
 				4EB56FB728A11111007C7B81 /* shader_use_fragment.fs in Resources */,
 				8AC7A36028A21B380060BE84 /* texture_pic_fragment.fs in Resources */,
 				4EB56FB528A1103E007C7B81 /* shader_use_vertext.vs in Resources */,
+				4E95523528A329BF002C2053 /* container.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

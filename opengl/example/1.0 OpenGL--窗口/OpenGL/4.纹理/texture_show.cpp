@@ -112,7 +112,7 @@ int texture_show() {
     int width, height, nrChannels;
     // 解决 Xcode 工程中 C++ 文件 .cpp 获取文件的相对路径的问题 https://www.jianshu.com/p/749a781fef94
     // The FileSystem::getPath(...) is part of the GitHub repository so we can find files on any IDE/platform; replace it with your own image path.
-    std::string path = std_path::get_path("/wall.jpeg");
+    std::string path = std_path::get_path("/container.jpg");
     unsigned char *data = stbi_load(path.c_str(), &width, &height, &nrChannels, 0);
     if (data)
     {
