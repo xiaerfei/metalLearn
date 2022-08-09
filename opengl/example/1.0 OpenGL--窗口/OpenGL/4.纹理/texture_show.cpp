@@ -10,8 +10,9 @@
 #include <glad.h>
 #include <glfw3.h>
 #include <iostream>
-#include "Shader.hpp"
+#include "shader.hpp"
 #include "stb_image.h"
+#include "std_path.hpp"
 
 static void processInput(GLFWwindow *window)
 {
@@ -54,7 +55,7 @@ int texture_show() {
         return -1;
     }
     
-    Shader ourShader("texture_pic_vertex.vs", "texture_pic_fragment.fs");
+    shader ourShader("texture_pic_vertex.vs", "texture_pic_fragment.fs");
     float vertices[] = {
         // positions          // colors           // texture coords
          0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
@@ -111,7 +112,8 @@ int texture_show() {
     int width, height, nrChannels;
     // 解决 Xcode 工程中 C++ 文件 .cpp 获取文件的相对路径的问题 https://www.jianshu.com/p/749a781fef94
     // The FileSystem::getPath(...) is part of the GitHub repository so we can find files on any IDE/platform; replace it with your own image path.
-    unsigned char *data = stbi_load("./wall.jpg", &width, &height, &nrChannels, 0);
+    std::string path = std_path::get_path("/wall.jpeg");
+    unsigned char *data = stbi_load(path.c_str(), &width, &height, &nrChannels, 0);
     if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);

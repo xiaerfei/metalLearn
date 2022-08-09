@@ -6,14 +6,14 @@
 //  Copyright © 2022 Sharon. All rights reserved.
 //
 
-#include "Shader.hpp"
+#include "shader.hpp"
 
 #include <string>
 #include <fstream>
 #include <glad.h>
 
 
-Shader::Shader(const char* vertexPath, const char* fragmentPath)
+shader::shader(const char* vertexPath, const char* fragmentPath)
 {
     std::string vertexCode;
     std::string fragmentCode;
@@ -38,6 +38,8 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath)
         // convert stream into string
         vertexCode   = vShaderStream.str();
         fragmentCode = fShaderStream.str();
+        
+        
     }
     catch (std::ifstream::failure& e)
     {
@@ -71,30 +73,30 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath)
 
 // activate the shader
 // ------------------------------------------------------------------------
-void Shader::use()
+void shader::use()
 {
     glUseProgram(ID);
 }
 // utility uniform functions
 // ------------------------------------------------------------------------
-void Shader::setBool(const std::string &name, bool value) const
+void shader::setBool(const std::string &name, bool value) const
 {
     glUniform1i(glGetUniformLocation(ID, name.c_str()), (int)value);
 }
 // ------------------------------------------------------------------------
-void Shader::setInt(const std::string &name, int value) const
+void shader::setInt(const std::string &name, int value) const
 {
     glUniform1i(glGetUniformLocation(ID, name.c_str()), value);
 }
 // ------------------------------------------------------------------------
-void Shader::setFloat(const std::string &name, float value) const
+void shader::setFloat(const std::string &name, float value) const
 {
     glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
 }
 
 // utility function for checking shader compilation/linking errors.
 // ------------------------------------------------------------------------
-void Shader::checkCompileErrors(unsigned int shader, std::string type)
+void shader::checkCompileErrors(unsigned int shader, std::string type)
 {
     int success;
     char infoLog[1024];

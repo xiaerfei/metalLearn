@@ -14,10 +14,12 @@
 #include "shader_more_properties.hpp"
 #include "sharder_use_class.hpp"
 #include "texture_show.hpp"
+#include "std_path.hpp"
 
 int main(int argc,char* argv[])
 {
     texture_show();
+    
     return 0;
 }
 

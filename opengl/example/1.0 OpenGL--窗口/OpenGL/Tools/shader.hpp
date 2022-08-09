@@ -13,11 +13,11 @@
 #include <sstream>
 #include <iostream>
 
-class Shader {
+class shader {
 public:
     unsigned int ID;
     // 构造器读取并构建着色器
-    Shader(const char* vertexPath, const char* fragmentPath);
+    shader(const char* vertexPath, const char* fragmentPath);
     // 使用/激活程序
     void use();
     // uniform工具函数
