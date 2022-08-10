@@ -11,13 +11,8 @@
 
 #include <stdio.h>
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <filesystem>
-#ifdef __APPLE__
-#include "CoreFoundation/CoreFoundation.h"
-#endif
 
+#include <string>
 
 namespace std_path {
 extern std::string get_path(std::string path_str);

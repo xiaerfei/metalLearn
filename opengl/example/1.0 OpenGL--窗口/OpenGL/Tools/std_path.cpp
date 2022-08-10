@@ -7,6 +7,10 @@
 //
 
 #include "std_path.hpp"
+#include <filesystem>
+#ifdef __APPLE__
+#include "CoreFoundation/CoreFoundation.h"
+#endif
 
 std::string std_path::get_path(std::string path_str) {
 #ifdef __APPLE__

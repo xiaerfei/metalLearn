@@ -14,6 +14,9 @@
 @end
 
 @implementation ViewController
+- (IBAction)displayToolBarAction:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ToolBarVisiable" object:nil userInfo:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,6 +29,9 @@
     cell.cancelButtonCell.backgroundColor = [NSColor grayColor];
     cell.cancelButtonCell.target = self;
     cell.cancelButtonCell.action = @selector(cancellAction:);
+    
+    
+    
 }
 
 - (void)cancellAction:(NSButtonCell *)cell {
