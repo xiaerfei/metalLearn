@@ -21,6 +21,10 @@ https://github.com/zhangfangtaozft/Metal-Tutorial
 
 [MetalByTutorials](https://github.com/dreamerwings/MetalByTutorials)
 
+
+[Metal与图形渲染九：多线程渲染](https://www.jianshu.com/p/febb517de283)
+[MetalPetal](https://github.com/MetalPetal/MetalPetal)
+
 ## Metal Debug 相关
 
 [Capturing GPU Command Data Programmatically](https://developer.apple.com/documentation/metal/debugging_tools/capturing_gpu_command_data_programmatically?language=objc)

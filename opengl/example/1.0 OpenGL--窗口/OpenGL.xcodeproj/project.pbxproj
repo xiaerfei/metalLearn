@@ -34,6 +34,7 @@
 		80470AD52297D97800660532 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80470AD42297D97800660532 /* libglfw.3.3.dylib */; };
 		80470AD72297D9BA00660532 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80470AD62297D9BA00660532 /* libGLTools.a */; };
 		80D254DE2294F24F00BE49AA /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 80D254DC2294F24F00BE49AA /* glad.c */; };
+		8A659D8228AA084D0080D940 /* glm in Resources */ = {isa = PBXBuildFile; fileRef = 8A659D8128AA084D0080D940 /* glm */; };
 		8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35828A217AA0060BE84 /* wall.jpeg */; };
 		8AC7A35C28A219E60060BE84 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A35B28A219E60060BE84 /* stb_image.cpp */; };
 		8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */; };
@@ -121,6 +122,7 @@
 		80D254DB2294F24F00BE49AA /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
 		80D254DC2294F24F00BE49AA /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		80D254DD2294F24F00BE49AA /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
+		8A659D8128AA084D0080D940 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
 		8AC7A35828A217AA0060BE84 /* wall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpeg; sourceTree = "<group>"; };
 		8AC7A35A28A2191D0060BE84 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		8AC7A35B28A219E60060BE84 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		802B6B9021A58F76004E7B8E = {
 			isa = PBXGroup;
 			children = (
+				8A659D8128AA084D0080D940 /* glm */,
 				80D254DA2294F24F00BE49AA /* glad */,
 				80470AD22297D97800660532 /* GLFW */,
 				80470AC22297D7EF00660532 /* include */,
@@ -480,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				802B6BA321A58F78004E7B8E /* Assets.xcassets in Resources */,
+				8A659D8228AA084D0080D940 /* glm in Resources */,
 				8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */,
 				8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */,
 				4E964CF528A406C400150C0D /* texture_two_vertex.vs in Resources */,
@@ -687,6 +691,7 @@
 					"\"$(SRCROOT)/include/GL\"",
 					"\"$(SRCROOT)/glad\"",
 					"\"$(SRCROOT)/GLFW\"",
+					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -720,6 +725,7 @@
 					"\"$(SRCROOT)/include/GL\"",
 					"\"$(SRCROOT)/glad\"",
 					"\"$(SRCROOT)/GLFW\"",
+					"\"$(SRCROOT)\"",
 				);
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

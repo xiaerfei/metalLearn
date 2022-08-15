@@ -28,6 +28,9 @@
                                                  name:@"ToolBarVisiable"
                                                object:nil];
     
+    NSPopoverTouchBarItem *item = nil;
+    NSPopover *over = nil;
+    
 }
 - (IBAction)networkAction:(id)sender {
     [self.window.toolbar setVisible:NO];
