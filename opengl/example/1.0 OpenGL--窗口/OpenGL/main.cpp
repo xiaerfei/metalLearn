@@ -15,16 +15,11 @@
 #include "sharder_use_class.hpp"
 #include "texture_show.hpp"
 #include "texture_show_two.hpp"
-
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-#include <iostream>
+#include "transformations_show.hpp"
 
 int main(int argc,char* argv[])
 {
-    texture_show_two();
-    
+    transformations_show();
     return 0;
 }
 
