@@ -16,10 +16,14 @@
 #include "texture_show.hpp"
 #include "texture_show_two.hpp"
 #include "transformations_show.hpp"
-
-int main(int argc,char* argv[])
-{
-    transformations_show();
+#include "coordinate_systems_show.hpp"
+#include "coordinate_systems_3d.hpp"
+#include "solar_system_show.hpp"
+#include "camera_rotate.hpp"
+#include "camera_rotate_keyboard.hpp"
+#include "camera_mouse.hpp"
+int main(int argc,char* argv[]) {
+    camera_mouse_show();
     return 0;
 }
 

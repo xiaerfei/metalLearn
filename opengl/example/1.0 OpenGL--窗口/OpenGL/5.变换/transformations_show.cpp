@@ -19,12 +19,35 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
+#include <GLUT/glut.h>
+
+//Code::Blocks编译通过
+#include <iostream>
+#include <ctime>
+#include <sys/timeb.h>
+ 
 
 
 static void processInput(GLFWwindow *window)
 {
-    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+    static long last = 0;
+    timeb t;
+    ftime(&t);
+    long now = t.time * 1000 + t.millitm;
+    long diff = now - last;
+    if (diff <= 180) {
+        return;
+    }
+    last = now;
+
+    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
+    } else if(glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_TRUE) {
+        printf("press left: %ld\n", diff);
+    } else if(glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_TRUE) {
+        printf("press right: %ld\n", diff);
+    }
+
 }
 
 // 每当窗口改变大小，GLFW会调用这个函数并填充相应的参数供你处理
@@ -200,6 +223,11 @@ int transformations_show() {
         transform = glm::scale(transform, glm::vec3(scaleAmount, scaleAmount, scaleAmount));
         glUniformMatrix4fv(transformLoc, 1, GL_FALSE, &transform[0][0]);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        
+        transform = glm::mat4(1.0f); // reset it to identity matrix
+        transform = glm::translate(transform, glm::vec3(0, 0, 0.0f));
+        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, &transform[0][0]);
+        
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);

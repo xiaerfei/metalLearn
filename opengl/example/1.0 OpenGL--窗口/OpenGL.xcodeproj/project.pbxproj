@@ -14,6 +14,16 @@
 		4E964CF528A406C400150C0D /* texture_two_vertex.vs in Resources */ = {isa = PBXBuildFile; fileRef = 4E964CF428A406C400150C0D /* texture_two_vertex.vs */; };
 		4E964CF728A406FD00150C0D /* texture_two_fragment.fs in Resources */ = {isa = PBXBuildFile; fileRef = 4E964CF628A406FD00150C0D /* texture_two_fragment.fs */; };
 		4E964CF928A4084900150C0D /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E964CF828A4084900150C0D /* awesomeface.png */; };
+		4EB5450D28B07BF80025035B /* solar_system_show.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5450B28B07BF80025035B /* solar_system_show.cpp */; };
+		4EB5450F28B07C100025035B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4EB5450E28B07C100025035B /* readme.txt */; };
+		4EB5451328B0C9810025035B /* coordinate_systems_show.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5451128B0C9810025035B /* coordinate_systems_show.cpp */; };
+		4EB5451528B0E8570025035B /* coordinate_systems.vs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB5451428B0E8570025035B /* coordinate_systems.vs */; };
+		4EB5451728B0E86C0025035B /* coordinate_systems.fs in Resources */ = {isa = PBXBuildFile; fileRef = 4EB5451628B0E86C0025035B /* coordinate_systems.fs */; };
+		4EB5451B28B0F4B50025035B /* coordinate_systems_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5451928B0F4B50025035B /* coordinate_systems_3d.cpp */; };
+		4EB5452028B1D2930025035B /* camera_rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5451E28B1D2930025035B /* camera_rotate.cpp */; };
+		4EB5452428B1D63D0025035B /* camera_rotate_keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5452228B1D63D0025035B /* camera_rotate_keyboard.cpp */; };
+		4EB5452728B1EAD60025035B /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5452528B1EAD60025035B /* Camera.cpp */; };
+		4EB5452B28B1EDC80025035B /* camera_mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5452928B1EDC80025035B /* camera_mouse.cpp */; };
 		4EB56F9A289E219C007C7B81 /* hello_opengl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F98289E219C007C7B81 /* hello_opengl.cpp */; };
 		4EB56F9E289E52F6007C7B81 /* draw_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F9C289E52F6007C7B81 /* draw_triangle.cpp */; };
 		4EB56FA1289E9C1A007C7B81 /* draw_triangle_ebo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB56F9F289E9C1A007C7B81 /* draw_triangle_ebo.cpp */; };
@@ -71,6 +81,23 @@
 		4E964CF428A406C400150C0D /* texture_two_vertex.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture_two_vertex.vs; sourceTree = "<group>"; };
 		4E964CF628A406FD00150C0D /* texture_two_fragment.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = texture_two_fragment.fs; sourceTree = "<group>"; };
 		4E964CF828A4084900150C0D /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		4EB5450B28B07BF80025035B /* solar_system_show.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solar_system_show.cpp; sourceTree = "<group>"; };
+		4EB5450C28B07BF80025035B /* solar_system_show.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = solar_system_show.hpp; sourceTree = "<group>"; };
+		4EB5450E28B07C100025035B /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		4EB5451128B0C9810025035B /* coordinate_systems_show.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_show.cpp; sourceTree = "<group>"; };
+		4EB5451228B0C9810025035B /* coordinate_systems_show.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = coordinate_systems_show.hpp; sourceTree = "<group>"; };
+		4EB5451428B0E8570025035B /* coordinate_systems.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coordinate_systems.vs; sourceTree = "<group>"; };
+		4EB5451628B0E86C0025035B /* coordinate_systems.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = coordinate_systems.fs; sourceTree = "<group>"; };
+		4EB5451928B0F4B50025035B /* coordinate_systems_3d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_3d.cpp; sourceTree = "<group>"; };
+		4EB5451A28B0F4B50025035B /* coordinate_systems_3d.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = coordinate_systems_3d.hpp; sourceTree = "<group>"; };
+		4EB5451E28B1D2930025035B /* camera_rotate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camera_rotate.cpp; sourceTree = "<group>"; };
+		4EB5451F28B1D2930025035B /* camera_rotate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera_rotate.hpp; sourceTree = "<group>"; };
+		4EB5452228B1D63D0025035B /* camera_rotate_keyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camera_rotate_keyboard.cpp; sourceTree = "<group>"; };
+		4EB5452328B1D63D0025035B /* camera_rotate_keyboard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera_rotate_keyboard.hpp; sourceTree = "<group>"; };
+		4EB5452528B1EAD60025035B /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		4EB5452628B1EAD60025035B /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		4EB5452928B1EDC80025035B /* camera_mouse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camera_mouse.cpp; sourceTree = "<group>"; };
+		4EB5452A28B1EDC80025035B /* camera_mouse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera_mouse.hpp; sourceTree = "<group>"; };
 		4EB56F8A289E1B7C007C7B81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EB56F98289E219C007C7B81 /* hello_opengl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hello_opengl.cpp; sourceTree = "<group>"; };
 		4EB56F99289E219C007C7B81 /* hello_opengl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hello_opengl.hpp; sourceTree = "<group>"; };
@@ -192,6 +219,75 @@
 			path = "两个纹理";
 			sourceTree = "<group>";
 		};
+		4EB5450A28B07B800025035B /* 作业 太阳系1 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5450B28B07BF80025035B /* solar_system_show.cpp */,
+				4EB5450C28B07BF80025035B /* solar_system_show.hpp */,
+				4EB5450E28B07C100025035B /* readme.txt */,
+			);
+			path = "作业 太阳系1";
+			sourceTree = "<group>";
+		};
+		4EB5451028B0C7960025035B /* 6.坐标系统 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5450A28B07B800025035B /* 作业 太阳系1 */,
+				4EB5451828B0F47B0025035B /* 3d */,
+				4EB5451128B0C9810025035B /* coordinate_systems_show.cpp */,
+				4EB5451228B0C9810025035B /* coordinate_systems_show.hpp */,
+				4EB5451428B0E8570025035B /* coordinate_systems.vs */,
+				4EB5451628B0E86C0025035B /* coordinate_systems.fs */,
+			);
+			path = "6.坐标系统";
+			sourceTree = "<group>";
+		};
+		4EB5451828B0F47B0025035B /* 3d */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5451928B0F4B50025035B /* coordinate_systems_3d.cpp */,
+				4EB5451A28B0F4B50025035B /* coordinate_systems_3d.hpp */,
+			);
+			path = 3d;
+			sourceTree = "<group>";
+		};
+		4EB5451C28B1D1450025035B /* 7.摄像机 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5451D28B1D2510025035B /* 旋转 */,
+				4EB5452128B1D6020025035B /* 键盘移动 */,
+				4EB5452828B1ED6A0025035B /* 鼠标移动 */,
+			);
+			path = "7.摄像机";
+			sourceTree = "<group>";
+		};
+		4EB5451D28B1D2510025035B /* 旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5451E28B1D2930025035B /* camera_rotate.cpp */,
+				4EB5451F28B1D2930025035B /* camera_rotate.hpp */,
+			);
+			path = "旋转";
+			sourceTree = "<group>";
+		};
+		4EB5452128B1D6020025035B /* 键盘移动 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5452228B1D63D0025035B /* camera_rotate_keyboard.cpp */,
+				4EB5452328B1D63D0025035B /* camera_rotate_keyboard.hpp */,
+			);
+			path = "键盘移动";
+			sourceTree = "<group>";
+		};
+		4EB5452828B1ED6A0025035B /* 鼠标移动 */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5452928B1EDC80025035B /* camera_mouse.cpp */,
+				4EB5452A28B1EDC80025035B /* camera_mouse.hpp */,
+			);
+			path = "鼠标移动";
+			sourceTree = "<group>";
+		};
 		4EB56F89289E1B7C007C7B81 /* HelloTriangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +339,8 @@
 				8AC7A35B28A219E60060BE84 /* stb_image.cpp */,
 				4E95523128A2B107002C2053 /* std_path.cpp */,
 				4E95523228A2B107002C2053 /* std_path.hpp */,
+				4EB5452528B1EAD60025035B /* Camera.cpp */,
+				4EB5452628B1EAD60025035B /* Camera.hpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -317,6 +415,8 @@
 				4EB56FA228A10252007C7B81 /* 3.着色器 */,
 				4EB56FB828A1137C007C7B81 /* 4.纹理 */,
 				4EB8D57428AA7A62007C71CD /* 5.变换 */,
+				4EB5451028B0C7960025035B /* 6.坐标系统 */,
+				4EB5451C28B1D1450025035B /* 7.摄像机 */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -505,14 +605,17 @@
 				8A659D8228AA084D0080D940 /* glm in Resources */,
 				8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */,
 				8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */,
+				4EB5450F28B07C100025035B /* readme.txt in Resources */,
 				4E964CF528A406C400150C0D /* texture_two_vertex.vs in Resources */,
 				4EB8D57E28AA8237007C71CD /* transformations_show_fragment.fs in Resources */,
 				4EB56FB728A11111007C7B81 /* shader_use_fragment.fs in Resources */,
 				8AC7A36028A21B380060BE84 /* texture_pic_fragment.fs in Resources */,
 				4EB56FB528A1103E007C7B81 /* shader_use_vertext.vs in Resources */,
 				4EB8D57C28AA8212007C71CD /* transformations_show_vertex.vs in Resources */,
+				4EB5451728B0E86C0025035B /* coordinate_systems.fs in Resources */,
 				4E964CF728A406FD00150C0D /* texture_two_fragment.fs in Resources */,
 				4E964CF928A4084900150C0D /* awesomeface.png in Resources */,
+				4EB5451528B0E8570025035B /* coordinate_systems.vs in Resources */,
 				4E95523528A329BF002C2053 /* container.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,11 +647,18 @@
 				4EB56F9E289E52F6007C7B81 /* draw_triangle.cpp in Sources */,
 				4EB56FB228A10F1F007C7B81 /* shader_use_class.cpp in Sources */,
 				4EB56FAB28A10935007C7B81 /* shader_more_properties.cpp in Sources */,
+				4EB5452B28B1EDC80025035B /* camera_mouse.cpp in Sources */,
+				4EB5452428B1D63D0025035B /* camera_rotate_keyboard.cpp in Sources */,
 				4EB56F9A289E219C007C7B81 /* hello_opengl.cpp in Sources */,
+				4EB5451328B0C9810025035B /* coordinate_systems_show.cpp in Sources */,
 				80D254DE2294F24F00BE49AA /* glad.c in Sources */,
 				4EB56FA528A102D1007C7B81 /* shader_var_in_out.cpp in Sources */,
 				4EB8D57A28AA7B17007C71CD /* transformations_show.cpp in Sources */,
+				4EB5451B28B0F4B50025035B /* coordinate_systems_3d.cpp in Sources */,
 				8AC7A35C28A219E60060BE84 /* stb_image.cpp in Sources */,
+				4EB5450D28B07BF80025035B /* solar_system_show.cpp in Sources */,
+				4EB5452028B1D2930025035B /* camera_rotate.cpp in Sources */,
+				4EB5452728B1EAD60025035B /* Camera.cpp in Sources */,
 				4EB56FA1289E9C1A007C7B81 /* draw_triangle_ebo.cpp in Sources */,
 				4E964CF328A4054800150C0D /* texture_show_two.cpp in Sources */,
 				4E95523328A2B107002C2053 /* std_path.cpp in Sources */,
