@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006094D24FC8B2F3ACB53267C978B8A8 /* Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AA4A120E51521699409279C9806086 /* Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E22C0626B43F18D2A05AEDDB55C040 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1D22659195C0070C4B33D85A7B7D2E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0B0FB646E7BCCA90A67CFBA885360B35 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		0DD2110E04EBABE35ABCBA40C88883E5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1506A49F9E45A9D5E1D0BE7960802D85 /* Pods-MetalByTutorialsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD95113887FD1964377EEB3DC5AEE2D /* Pods-MetalByTutorialsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ED8CB48F36ED56E14F00110449A184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4FE5EE3A53D1F89BFD883ED6C2FFD2 /* Foundation.framework */; };
+		3296EFF6C9987EC288119B787D813F44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */; };
+		4CD15A7B893829FBD76453E3916364C1 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F61D8B2DF8AD3086452AE1E349DCFE7 /* Pods-MetalByTutorialsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44765DAD75448B82215E038A763C05AD /* Pods-MetalByTutorialsTests-dummy.m */; };
+		56DBD44404488F15CE0AD26708AECCA3 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBD590ABC433CB650B7DC70EABEE59D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		662FA58BFBA87239B5EDAC3BF981D4A5 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67AEE626250489F63A0BBE4D3C98855C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFF5D225862928BBE3242F61D2FFD6D /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72022B481CDC49826D8692D64C090F95 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743C58DD687986FAE69C5A127BC74730 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77E89ABBF0B14D029D55072153F36336 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865AF9D290E6170F37B1EFC3D530B9C9 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93003AD53CA9CF15A14EED380B705468 /* Pods-MetalByTutorials-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CA94026651E0D16CF9D21CE90FCBB7 /* Pods-MetalByTutorials-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCE213723E90355F267B7E8C4B79167 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */; };
+		9E0F4BFEB3736B96D2E36B0E31B37F5B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC0C540EC73C9BBEFEE86715ECFBB53 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1071B392EE60EDC76BBB5D8ABC67211 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */; };
+		A50A3F09EAC8AE4DB2464ACB7248B6EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF2AB92BDB525784C0CF6158BDA3A7F2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B01D0C7640BCE16285879367A57428D0 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D767077E12511712E5AAF1783BFDB1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F808465D5AA79806CA80DCCFB9CF9C /* Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 434C610F019262391A0FA61E08D3FAF8 /* Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m */; };
+		B43CC37C065E2EAAACF54568F9271A81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */; };
+		C07273E8AE6A7CC24FE788626CB2A048 /* Pods-MetalByTutorials-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D3CD7C7E8F5F127AAE7480F4377F6 /* Pods-MetalByTutorials-dummy.m */; };
+		C649FE9EC9FE3CD25D5BB9AC768989E7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2B90BAE847AE8FEC37D87D24E324863 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D52C5B5F9CBD2828A6586E7F911291 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D573CDE4C760C58706AA91A85A7EC06E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D78E23EC7FF73D60C56F3F0EEF11FC19 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7BACCDBCFD6D790639E01FF764A13F8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07CE0DF14FA4EBC93F98BBB8F9051AF /* AppKit.framework */; };
+		E04EF19B8D61D83DFE848F3C441C9E48 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E915F2E1B315C91CD81CE7D06883DF77 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112F0CA5276804CC0E16E188CB12F5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		9D733558C72258C0EA9A608BB700D599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B55FD7278BCAD74D455454053E3F5A9;
+			remoteInfo = "Pods-MetalByTutorials";
+		};
+		F65ABBDBD8D10C5231DE2E9C2C9B9E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A5D77666A0FDDA98DFFFD817432E2F /* Pods-MetalByTutorialsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorialsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		07B0725C24BDE38AECA6F765B6C36E2A /* Pods-MetalByTutorials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetalByTutorials.modulemap"; sourceTree = "<group>"; };
+		08135B02D2021B3BC1903BE5027B55D8 /* Pods-MetalByTutorials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorials.release.xcconfig"; sourceTree = "<group>"; };
+		0B639211E337F8C1C2CBBCB4FB2A2224 /* Pods-MetalByTutorialsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorialsTests-Info.plist"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		334D202D90EC34757D0BCCE219722474 /* Pods-MetalByTutorialsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MetalByTutorialsTests"; path = Pods_MetalByTutorialsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		40CA94026651E0D16CF9D21CE90FCBB7 /* Pods-MetalByTutorials-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetalByTutorials-umbrella.h"; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		434C610F019262391A0FA61E08D3FAF8 /* Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m"; sourceTree = "<group>"; };
+		44765DAD75448B82215E038A763C05AD /* Pods-MetalByTutorialsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalByTutorialsTests-dummy.m"; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		641C69EA1DB3B867215C1710B3B65BA2 /* Pods-MetalByTutorialsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorialsTests.release.xcconfig"; sourceTree = "<group>"; };
+		66922588DF0F2461B5F9248858D5C9E2 /* Pods-MetalByTutorials-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorials-acknowledgements.plist"; sourceTree = "<group>"; };
+		66C747BC1AFC14BD0DAC12110EBABE04 /* Pods-MetalByTutorials */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MetalByTutorials"; path = Pods_MetalByTutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7305989A5D52327833551B1D1E6A2B8B /* Pods-MetalByTutorials-MetalByTutorialsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-Info.plist"; sourceTree = "<group>"; };
+		7358401C3CABCAF1A2A0270241980FFA /* Pods-MetalByTutorials-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalByTutorials-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80EBE1D2B80864A254E912DAFA7FC81C /* Pods-MetalByTutorials-MetalByTutorialsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetalByTutorials-MetalByTutorialsUITests.modulemap"; sourceTree = "<group>"; };
+		81AA4A120E51521699409279C9806086 /* Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h"; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		945CFE440E83C0CE0AE11C7E31A19BE5 /* Pods-MetalByTutorials-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorials-Info.plist"; sourceTree = "<group>"; };
+		96541FCDEA2D55D3589D2DA8C2460787 /* Pods-MetalByTutorialsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorialsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99C809AF6655DE7602C04ECCFBF91568 /* Pods-MetalByTutorialsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MetalByTutorialsTests.modulemap"; sourceTree = "<group>"; };
+		9AD95113887FD1964377EEB3DC5AEE2D /* Pods-MetalByTutorialsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetalByTutorialsTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E956AC007AE2B0D371E77C3F69639DA /* Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AA29AD183DB5BB2A2415A040110ED956 /* Pods-MetalByTutorials-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalByTutorials-frameworks.sh"; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		BBAEF10E8AEC8DFD57E0A5660F5BBB60 /* Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C07CE0DF14FA4EBC93F98BBB8F9051AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		C77D3CD7C7E8F5F127AAE7480F4377F6 /* Pods-MetalByTutorials-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalByTutorials-dummy.m"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D317A9C0D9A3D43ABE57A689570C767D /* Pods-MetalByTutorials-MetalByTutorialsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalByTutorials-MetalByTutorialsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DB8436DE8494A0DA33EFF2E95B80420F /* Pods-MetalByTutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorials.debug.xcconfig"; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E1575D1B101F0A76FD77719026DBC391 /* Pods-MetalByTutorialsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalByTutorialsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		ECE021A6436C2D36F7C3B7456D17B2F7 /* Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EF4FE5EE3A53D1F89BFD883ED6C2FFD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1E7183FA707A58C69201525F7D06421 /* Pods-MetalByTutorials-MetalByTutorialsUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MetalByTutorials-MetalByTutorialsUITests"; path = Pods_MetalByTutorials_MetalByTutorialsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F97755792A2358343D4DEE96CF566AE2 /* Pods-MetalByTutorials-MetalByTutorialsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalByTutorials-MetalByTutorialsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334464F7BE5BA0A037ECF75D3D948A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3296EFF6C9987EC288119B787D813F44 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC3575A1699575EC05B7AA707F5D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1071B392EE60EDC76BBB5D8ABC67211 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D142986F32211B9E87860FA15A66029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCE213723E90355F267B7E8C4B79167 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084F7FDACBE0CEF9283FC54DDF38EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BACCDBCFD6D790639E01FF764A13F8 /* AppKit.framework in Frameworks */,
+				B43CC37C065E2EAAACF54568F9271A81 /* Cocoa.framework in Frameworks */,
+				27ED8CB48F36ED56E14F00110449A184 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3D4E6C5A874426EA2F67EF0859A5D802 /* Pods-MetalByTutorials-MetalByTutorialsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80EBE1D2B80864A254E912DAFA7FC81C /* Pods-MetalByTutorials-MetalByTutorialsUITests.modulemap */,
+				BBAEF10E8AEC8DFD57E0A5660F5BBB60 /* Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.markdown */,
+				9E956AC007AE2B0D371E77C3F69639DA /* Pods-MetalByTutorials-MetalByTutorialsUITests-acknowledgements.plist */,
+				434C610F019262391A0FA61E08D3FAF8 /* Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m */,
+				D317A9C0D9A3D43ABE57A689570C767D /* Pods-MetalByTutorials-MetalByTutorialsUITests-frameworks.sh */,
+				7305989A5D52327833551B1D1E6A2B8B /* Pods-MetalByTutorials-MetalByTutorialsUITests-Info.plist */,
+				81AA4A120E51521699409279C9806086 /* Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h */,
+				ECE021A6436C2D36F7C3B7456D17B2F7 /* Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig */,
+				F97755792A2358343D4DEE96CF566AE2 /* Pods-MetalByTutorials-MetalByTutorialsUITests.release.xcconfig */,
+			);
+			name = "Pods-MetalByTutorials-MetalByTutorialsUITests";
+			path = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests";
+			sourceTree = "<group>";
+		};
+		571289E8E91A27380C3C38EFC16A8513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				66C747BC1AFC14BD0DAC12110EBABE04 /* Pods-MetalByTutorials */,
+				F1E7183FA707A58C69201525F7D06421 /* Pods-MetalByTutorials-MetalByTutorialsUITests */,
+				334D202D90EC34757D0BCCE219722474 /* Pods-MetalByTutorialsTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76EA7471C647940FB95DE799FD2FF5E9 /* Pods-MetalByTutorialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C809AF6655DE7602C04ECCFBF91568 /* Pods-MetalByTutorialsTests.modulemap */,
+				E1575D1B101F0A76FD77719026DBC391 /* Pods-MetalByTutorialsTests-acknowledgements.markdown */,
+				00A5D77666A0FDDA98DFFFD817432E2F /* Pods-MetalByTutorialsTests-acknowledgements.plist */,
+				44765DAD75448B82215E038A763C05AD /* Pods-MetalByTutorialsTests-dummy.m */,
+				0B639211E337F8C1C2CBBCB4FB2A2224 /* Pods-MetalByTutorialsTests-Info.plist */,
+				9AD95113887FD1964377EEB3DC5AEE2D /* Pods-MetalByTutorialsTests-umbrella.h */,
+				96541FCDEA2D55D3589D2DA8C2460787 /* Pods-MetalByTutorialsTests.debug.xcconfig */,
+				641C69EA1DB3B867215C1710B3B65BA2 /* Pods-MetalByTutorialsTests.release.xcconfig */,
+			);
+			name = "Pods-MetalByTutorialsTests";
+			path = "Target Support Files/Pods-MetalByTutorialsTests";
+			sourceTree = "<group>";
+		};
+		8A301F0F69531E14963607B54443E525 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97832968EB4878664C50BA0DC7E0A93D /* Pods-MetalByTutorials */,
+				3D4E6C5A874426EA2F67EF0859A5D802 /* Pods-MetalByTutorials-MetalByTutorialsUITests */,
+				76EA7471C647940FB95DE799FD2FF5E9 /* Pods-MetalByTutorialsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97832968EB4878664C50BA0DC7E0A93D /* Pods-MetalByTutorials */ = {
+			isa = PBXGroup;
+			children = (
+				07B0725C24BDE38AECA6F765B6C36E2A /* Pods-MetalByTutorials.modulemap */,
+				7358401C3CABCAF1A2A0270241980FFA /* Pods-MetalByTutorials-acknowledgements.markdown */,
+				66922588DF0F2461B5F9248858D5C9E2 /* Pods-MetalByTutorials-acknowledgements.plist */,
+				C77D3CD7C7E8F5F127AAE7480F4377F6 /* Pods-MetalByTutorials-dummy.m */,
+				AA29AD183DB5BB2A2415A040110ED956 /* Pods-MetalByTutorials-frameworks.sh */,
+				945CFE440E83C0CE0AE11C7E31A19BE5 /* Pods-MetalByTutorials-Info.plist */,
+				40CA94026651E0D16CF9D21CE90FCBB7 /* Pods-MetalByTutorials-umbrella.h */,
+				DB8436DE8494A0DA33EFF2E95B80420F /* Pods-MetalByTutorials.debug.xcconfig */,
+				08135B02D2021B3BC1903BE5027B55D8 /* Pods-MetalByTutorials.release.xcconfig */,
+			);
+			name = "Pods-MetalByTutorials";
+			path = "Target Support Files/Pods-MetalByTutorials";
+			sourceTree = "<group>";
+		};
+		A10869DAFC8FEDE8102492A59ED1D009 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C07CE0DF14FA4EBC93F98BBB8F9051AF /* AppKit.framework */,
+				FF67E6C1B6EB142266477E171E8B684E /* Cocoa.framework */,
+				EF4FE5EE3A53D1F89BFD883ED6C2FFD2 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10869DAFC8FEDE8102492A59ED1D009 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				571289E8E91A27380C3C38EFC16A8513 /* Products */,
+				8A301F0F69531E14963607B54443E525 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		437DEFC49AEDB076CE783ACE918B1BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006094D24FC8B2F3ACB53267C978B8A8 /* Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFE50517ED6BCE87AA508FED49CE1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93003AD53CA9CF15A14EED380B705468 /* Pods-MetalByTutorials-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C45320A98D66D7258DA046F29A13C40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506A49F9E45A9D5E1D0BE7960802D85 /* Pods-MetalByTutorialsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7C7B13F0829DCB17CDC1A6CF9994A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04EF19B8D61D83DFE848F3C441C9E48 /* MASCompositeConstraint.h in Headers */,
+				9E0F4BFEB3736B96D2E36B0E31B37F5B /* MASConstraint.h in Headers */,
+				07E22C0626B43F18D2A05AEDDB55C040 /* MASConstraint+Private.h in Headers */,
+				6FFF5D225862928BBE3242F61D2FFD6D /* MASConstraintMaker.h in Headers */,
+				4CD15A7B893829FBD76453E3916364C1 /* MASLayoutConstraint.h in Headers */,
+				9EC0C540EC73C9BBEFEE86715ECFBB53 /* Masonry.h in Headers */,
+				72022B481CDC49826D8692D64C090F95 /* Masonry-umbrella.h in Headers */,
+				662FA58BFBA87239B5EDAC3BF981D4A5 /* MASUtilities.h in Headers */,
+				56DBD44404488F15CE0AD26708AECCA3 /* MASViewAttribute.h in Headers */,
+				865AF9D290E6170F37B1EFC3D530B9C9 /* MASViewConstraint.h in Headers */,
+				E915F2E1B315C91CD81CE7D06883DF77 /* NSArray+MASAdditions.h in Headers */,
+				77E89ABBF0B14D029D55072153F36336 /* NSArray+MASShorthandAdditions.h in Headers */,
+				67AEE626250489F63A0BBE4D3C98855C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				D2B90BAE847AE8FEC37D87D24E324863 /* View+MASAdditions.h in Headers */,
+				B2D767077E12511712E5AAF1783BFDB1 /* View+MASShorthandAdditions.h in Headers */,
+				B01D0C7640BCE16285879367A57428D0 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B55FD7278BCAD74D455454053E3F5A9 /* Pods-MetalByTutorials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABE11E7DB9AAA4D2A683E73FDE74E84 /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorials" */;
+			buildPhases = (
+				7FFE50517ED6BCE87AA508FED49CE1EF /* Headers */,
+				3ABEB9352DDED2EF3B9F6996753D53DA /* Sources */,
+				5CDC3575A1699575EC05B7AA707F5D69 /* Frameworks */,
+				8B4658F16B97C8742736D046E004DFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C334B6F52D6A7ABF977DCE8518AF04F /* PBXTargetDependency */,
+			);
+			name = "Pods-MetalByTutorials";
+			productName = Pods_MetalByTutorials;
+			productReference = 66C747BC1AFC14BD0DAC12110EBABE04 /* Pods-MetalByTutorials */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3543966CBCBB8B1310857E673C36709F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				AA7C7B13F0829DCB17CDC1A6CF9994A6 /* Headers */,
+				1B3F17B2F61269DA07B7D6872A80D726 /* Sources */,
+				A084F7FDACBE0CEF9283FC54DDF38EC9 /* Frameworks */,
+				4C01DE77BA52FE917D39D96D38D157F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+		9011ADFDF6E61760BEC5E4647D6FDD87 /* Pods-MetalByTutorials-MetalByTutorialsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3899E28616AEFA9EE45252248825968C /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorials-MetalByTutorialsUITests" */;
+			buildPhases = (
+				437DEFC49AEDB076CE783ACE918B1BAB /* Headers */,
+				335100F2064D156DD373CF35A307DD7F /* Sources */,
+				7D142986F32211B9E87860FA15A66029 /* Frameworks */,
+				8D31817A011D1F52B0759E01AFCE8A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233A1F60DAEB6436754379890E1DB5E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MetalByTutorials-MetalByTutorialsUITests";
+			productName = Pods_MetalByTutorials_MetalByTutorialsUITests;
+			productReference = F1E7183FA707A58C69201525F7D06421 /* Pods-MetalByTutorials-MetalByTutorialsUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA2D40907BAE976E34509966EC9F15AF /* Pods-MetalByTutorialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC6EE6160B172C3A39004015C1B581C /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorialsTests" */;
+			buildPhases = (
+				9C45320A98D66D7258DA046F29A13C40 /* Headers */,
+				853DF1A7B6461B55B750E1E4D5816762 /* Sources */,
+				334464F7BE5BA0A037ECF75D3D948A12 /* Frameworks */,
+				89D5D3C609A762E1E519657F26881C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5376CD384753AC4A7C767C76E341C9A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MetalByTutorialsTests";
+			productName = Pods_MetalByTutorialsTests;
+			productReference = 334D202D90EC34757D0BCCE219722474 /* Pods-MetalByTutorialsTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 571289E8E91A27380C3C38EFC16A8513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				0B55FD7278BCAD74D455454053E3F5A9 /* Pods-MetalByTutorials */,
+				9011ADFDF6E61760BEC5E4647D6FDD87 /* Pods-MetalByTutorials-MetalByTutorialsUITests */,
+				BA2D40907BAE976E34509966EC9F15AF /* Pods-MetalByTutorialsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C01DE77BA52FE917D39D96D38D157F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5D3C609A762E1E519657F26881C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4658F16B97C8742736D046E004DFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D31817A011D1F52B0759E01AFCE8A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3F17B2F61269DA07B7D6872A80D726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2AB92BDB525784C0CF6158BDA3A7F2 /* MASCompositeConstraint.m in Sources */,
+				A50A3F09EAC8AE4DB2464ACB7248B6EA /* MASConstraint.m in Sources */,
+				D573CDE4C760C58706AA91A85A7EC06E /* MASConstraintMaker.m in Sources */,
+				5FBD590ABC433CB650B7DC70EABEE59D /* MASLayoutConstraint.m in Sources */,
+				0B0FB646E7BCCA90A67CFBA885360B35 /* Masonry-dummy.m in Sources */,
+				C649FE9EC9FE3CD25D5BB9AC768989E7 /* MASViewAttribute.m in Sources */,
+				743C58DD687986FAE69C5A127BC74730 /* MASViewConstraint.m in Sources */,
+				0DD2110E04EBABE35ABCBA40C88883E5 /* NSArray+MASAdditions.m in Sources */,
+				0A1D22659195C0070C4B33D85A7B7D2E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D3D52C5B5F9CBD2828A6586E7F911291 /* View+MASAdditions.m in Sources */,
+				D78E23EC7FF73D60C56F3F0EEF11FC19 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335100F2064D156DD373CF35A307DD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F808465D5AA79806CA80DCCFB9CF9C /* Pods-MetalByTutorials-MetalByTutorialsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABEB9352DDED2EF3B9F6996753D53DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07273E8AE6A7CC24FE788626CB2A048 /* Pods-MetalByTutorials-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853DF1A7B6461B55B750E1E4D5816762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F61D8B2DF8AD3086452AE1E349DCFE7 /* Pods-MetalByTutorialsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233A1F60DAEB6436754379890E1DB5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 112F0CA5276804CC0E16E188CB12F5CF /* PBXContainerItemProxy */;
+		};
+		5376CD384753AC4A7C767C76E341C9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MetalByTutorials";
+			target = 0B55FD7278BCAD74D455454053E3F5A9 /* Pods-MetalByTutorials */;
+			targetProxy = 9D733558C72258C0EA9A608BB700D599 /* PBXContainerItemProxy */;
+		};
+		6C334B6F52D6A7ABF977DCE8518AF04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = F65ABBDBD8D10C5231DE2E9C2C9B9E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12BECB1D08E0C8D8299EC347995A552C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3337DDCCDF863D06CA79C6D763013BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08135B02D2021B3BC1903BE5027B55D8 /* Pods-MetalByTutorials.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorials/Pods-MetalByTutorials-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorials/Pods-MetalByTutorials.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EAE98D21FD531690E8C6CD75F029584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97755792A2358343D4DEE96CF566AE2 /* Pods-MetalByTutorials-MetalByTutorialsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests/Pods-MetalByTutorials-MetalByTutorialsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests/Pods-MetalByTutorials-MetalByTutorialsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88A12DD8317D27A2DF32956DE0D4353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		930E226C21F64A571D1CB76E18AB1F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A621E29022177B41E0DA6DCD1075916B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE021A6436C2D36F7C3B7456D17B2F7 /* Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests/Pods-MetalByTutorials-MetalByTutorialsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests/Pods-MetalByTutorials-MetalByTutorialsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B70C51C1A7CE929BFCC0487EBDED436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96541FCDEA2D55D3589D2DA8C2460787 /* Pods-MetalByTutorialsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorialsTests/Pods-MetalByTutorialsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorialsTests/Pods-MetalByTutorialsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71873917D0ED6E1C976C88704C05BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBC694BCE1143ACC28191E62BCEC84A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641C69EA1DB3B867215C1710B3B65BA2 /* Pods-MetalByTutorialsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorialsTests/Pods-MetalByTutorialsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorialsTests/Pods-MetalByTutorialsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1A19F5B77B312CD930D6F8991F1018E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8436DE8494A0DA33EFF2E95B80420F /* Pods-MetalByTutorials.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalByTutorials/Pods-MetalByTutorials-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalByTutorials/Pods-MetalByTutorials.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3543966CBCBB8B1310857E673C36709F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A12DD8317D27A2DF32956DE0D4353B /* Debug */,
+				12BECB1D08E0C8D8299EC347995A552C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3899E28616AEFA9EE45252248825968C /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorials-MetalByTutorialsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A621E29022177B41E0DA6DCD1075916B /* Debug */,
+				4EAE98D21FD531690E8C6CD75F029584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71873917D0ED6E1C976C88704C05BF3 /* Debug */,
+				930E226C21F64A571D1CB76E18AB1F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABE11E7DB9AAA4D2A683E73FDE74E84 /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A19F5B77B312CD930D6F8991F1018E /* Debug */,
+				3337DDCCDF863D06CA79C6D763013BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC6EE6160B172C3A39004015C1B581C /* Build configuration list for PBXNativeTarget "Pods-MetalByTutorialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70C51C1A7CE929BFCC0487EBDED436C /* Debug */,
+				DBC694BCE1143ACC28191E62BCEC84A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

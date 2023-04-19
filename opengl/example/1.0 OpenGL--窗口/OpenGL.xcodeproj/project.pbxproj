@@ -49,6 +49,7 @@
 		80470AD72297D9BA00660532 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80470AD62297D9BA00660532 /* libGLTools.a */; };
 		80D254DE2294F24F00BE49AA /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 80D254DC2294F24F00BE49AA /* glad.c */; };
 		8A659D8228AA084D0080D940 /* glm in Resources */ = {isa = PBXBuildFile; fileRef = 8A659D8128AA084D0080D940 /* glm */; };
+		8AC0446728D0256200E5519A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8AC0446628D0256200E5519A /* README.md */; };
 		8AC7A35928A217AA0060BE84 /* wall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35828A217AA0060BE84 /* wall.jpeg */; };
 		8AC7A35C28A219E60060BE84 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7A35B28A219E60060BE84 /* stb_image.cpp */; };
 		8AC7A35E28A21B230060BE84 /* texture_pic_vertex.vs in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7A35D28A21B230060BE84 /* texture_pic_vertex.vs */; };
@@ -159,6 +160,7 @@
 		80D254DC2294F24F00BE49AA /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		80D254DD2294F24F00BE49AA /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
 		8A659D8128AA084D0080D940 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		8AC0446628D0256200E5519A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8AC7A35828A217AA0060BE84 /* wall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpeg; sourceTree = "<group>"; };
 		8AC7A35A28A2191D0060BE84 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		8AC7A35B28A219E60060BE84 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
@@ -411,7 +413,7 @@
 				802B6BA721A58F78004E7B8E /* Info.plist */,
 				802B6BAA21A58F78004E7B8E /* OpenGL.entitlements */,
 				8012EC462269D1C7006FB6E1 /* main.cpp */,
-				4EB0340928CED77D00FE8DAE /* README.md */,
+				8AC0446628D0256200E5519A /* README.md */,
 				4EB56FAC28A10C8A007C7B81 /* Tools */,
 				4EB56F97289E219C007C7B81 /* 1.创建窗口 */,
 				4EB56F9B289E52C0007C7B81 /* 2.绘制三角形 */,
@@ -615,7 +617,7 @@
 				8AC7A36028A21B380060BE84 /* texture_pic_fragment.fs in Resources */,
 				4EB56FB528A1103E007C7B81 /* shader_use_vertext.vs in Resources */,
 				4EB8D57C28AA8212007C71CD /* transformations_show_vertex.vs in Resources */,
-				4EB0340A28CED77D00FE8DAE /* README.md in Resources */,
+				8AC0446728D0256200E5519A /* README.md in Resources */,
 				4EB5451728B0E86C0025035B /* coordinate_systems.fs in Resources */,
 				4E964CF728A406FD00150C0D /* texture_two_fragment.fs in Resources */,
 				4E964CF928A4084900150C0D /* awesomeface.png in Resources */,

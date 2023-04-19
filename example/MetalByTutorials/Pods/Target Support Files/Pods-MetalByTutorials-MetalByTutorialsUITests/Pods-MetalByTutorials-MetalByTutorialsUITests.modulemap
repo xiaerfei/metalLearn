@@ -1,0 +1,6 @@
+framework module Pods_MetalByTutorials_MetalByTutorialsUITests {
+  umbrella header "Pods-MetalByTutorials-MetalByTutorialsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

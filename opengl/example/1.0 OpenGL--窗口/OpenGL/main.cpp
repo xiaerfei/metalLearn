@@ -23,7 +23,7 @@
 #include "camera_rotate_keyboard.hpp"
 #include "camera_mouse.hpp"
 int main(int argc,char* argv[]) {
-    camera_mouse_show();
+    solar_system_show();
     return 0;
 }
 
