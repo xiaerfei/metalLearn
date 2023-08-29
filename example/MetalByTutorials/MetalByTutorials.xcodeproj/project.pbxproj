@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2B9FF2A929CAC85FA3B182D5 /* Pods_MetalByTutorialsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB39EA23DAD1DDFD3113E72 /* Pods_MetalByTutorialsTests.framework */; };
 		71776BA9EC63D73FCEA2F4DD /* Pods_MetalByTutorials_MetalByTutorialsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0DDEE6A9F932A92D6CE8D3 /* Pods_MetalByTutorials_MetalByTutorialsUITests.framework */; };
+		8A06D2ED2A9DED0D001DE290 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A06D2EC2A9DED0D001DE290 /* Metal.framework */; };
+		8A06D2EF2A9DED15001DE290 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A06D2EE2A9DED15001DE290 /* MetalKit.framework */; };
+		8A06D2F32A9DED7E001DE290 /* FFRenderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A06D2F22A9DED7E001DE290 /* FFRenderImageView.m */; };
+		8A06D2F72A9DEDE4001DE290 /* FFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A06D2F62A9DEDE4001DE290 /* FFUtils.m */; };
+		8A06D2FA2A9DFCEF001DE290 /* WechatIMG24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8A06D2F92A9DFCEF001DE290 /* WechatIMG24.jpeg */; };
+		8A06D2FC2A9DFE35001DE290 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8A06D2FB2A9DFE35001DE290 /* shaders.metal */; };
 		8A413BDB29EFC77F00495E07 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A413BDA29EFC77F00495E07 /* WindowController.m */; };
 		8A4DA8E629EE40D20027FD60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DA8E529EE40D20027FD60 /* AppDelegate.m */; };
 		8A4DA8E929EE40D20027FD60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DA8E829EE40D20027FD60 /* ViewController.m */; };
@@ -47,6 +53,14 @@
 		4E74E9FBB3793BDBEE09ADCA /* Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MetalByTutorials-MetalByTutorialsUITests/Pods-MetalByTutorials-MetalByTutorialsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0DDEE6A9F932A92D6CE8D3 /* Pods_MetalByTutorials_MetalByTutorialsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalByTutorials_MetalByTutorialsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F261A6344F0367C366D532 /* Pods-MetalByTutorialsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalByTutorialsTests.debug.xcconfig"; path = "Target Support Files/Pods-MetalByTutorialsTests/Pods-MetalByTutorialsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A06D2EC2A9DED0D001DE290 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		8A06D2EE2A9DED15001DE290 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		8A06D2F12A9DED7E001DE290 /* FFRenderImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFRenderImageView.h; sourceTree = "<group>"; };
+		8A06D2F22A9DED7E001DE290 /* FFRenderImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFRenderImageView.m; sourceTree = "<group>"; };
+		8A06D2F52A9DEDE4001DE290 /* FFUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFUtils.h; sourceTree = "<group>"; };
+		8A06D2F62A9DEDE4001DE290 /* FFUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFUtils.m; sourceTree = "<group>"; };
+		8A06D2F92A9DFCEF001DE290 /* WechatIMG24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG24.jpeg; sourceTree = "<group>"; };
+		8A06D2FB2A9DFE35001DE290 /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
 		8A413BD929EFC77F00495E07 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		8A413BDA29EFC77F00495E07 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		8A4DA8E129EE40D20027FD60 /* MetalByTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalByTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A06D2EF2A9DED15001DE290 /* MetalKit.framework in Frameworks */,
+				8A06D2ED2A9DED0D001DE290 /* Metal.framework in Frameworks */,
 				921B8BC62671E2AFD05C3B20 /* Pods_MetalByTutorials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +110,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A06D2F02A9DED69001DE290 /* RenderImage */ = {
+			isa = PBXGroup;
+			children = (
+				8A06D2F12A9DED7E001DE290 /* FFRenderImageView.h */,
+				8A06D2F22A9DED7E001DE290 /* FFRenderImageView.m */,
+			);
+			path = RenderImage;
+			sourceTree = "<group>";
+		};
+		8A06D2F42A9DEDC2001DE290 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A06D2F52A9DEDE4001DE290 /* FFUtils.h */,
+				8A06D2F62A9DEDE4001DE290 /* FFUtils.m */,
+				8A06D2FB2A9DFE35001DE290 /* shaders.metal */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A06D2F82A9DFCE1001DE290 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A06D2F92A9DFCEF001DE290 /* WechatIMG24.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		8A4DA8D829EE40D10027FD60 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +168,10 @@
 				8A413BDA29EFC77F00495E07 /* WindowController.m */,
 				8A4DA8E729EE40D20027FD60 /* ViewController.h */,
 				8A4DA8E829EE40D20027FD60 /* ViewController.m */,
+				8A06D2F42A9DEDC2001DE290 /* Utils */,
+				8A06D2F02A9DED69001DE290 /* RenderImage */,
 				8A4DA8EA29EE40DC0027FD60 /* Assets.xcassets */,
+				8A06D2F82A9DFCE1001DE290 /* Images */,
 				8A4DA8EC29EE40DC0027FD60 /* Main.storyboard */,
 				8A4DA8EF29EE40DC0027FD60 /* main.m */,
 				8A4DA8F129EE40DC0027FD60 /* MetalByTutorials.entitlements */,
@@ -166,6 +212,8 @@
 		D5EA8657CEA73E9C19EB9647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A06D2EE2A9DED15001DE290 /* MetalKit.framework */,
+				8A06D2EC2A9DED0D001DE290 /* Metal.framework */,
 				32CB6CC40DE7B250B4F15E3C /* Pods_MetalByTutorials.framework */,
 				7C0DDEE6A9F932A92D6CE8D3 /* Pods_MetalByTutorials_MetalByTutorialsUITests.framework */,
 				3CB39EA23DAD1DDFD3113E72 /* Pods_MetalByTutorialsTests.framework */,
@@ -281,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A06D2FA2A9DFCEF001DE290 /* WechatIMG24.jpeg in Resources */,
 				8A4DA8EB29EE40DC0027FD60 /* Assets.xcassets in Resources */,
 				8A4DA8EE29EE40DC0027FD60 /* Main.storyboard in Resources */,
 			);
@@ -411,9 +460,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4DA8E929EE40D20027FD60 /* ViewController.m in Sources */,
+				8A06D2F32A9DED7E001DE290 /* FFRenderImageView.m in Sources */,
+				8A06D2FC2A9DFE35001DE290 /* shaders.metal in Sources */,
 				8A413BDB29EFC77F00495E07 /* WindowController.m in Sources */,
 				8A4DA8F029EE40DC0027FD60 /* main.m in Sources */,
 				8A4DA8E629EE40D20027FD60 /* AppDelegate.m in Sources */,
+				8A06D2F72A9DEDE4001DE290 /* FFUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
