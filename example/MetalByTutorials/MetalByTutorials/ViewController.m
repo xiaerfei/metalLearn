@@ -31,9 +31,10 @@
     [self.view addSubview:self.renderImageView];
     
     [self.renderImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.right.bottom.mas_equalTo(self.view);
+        make.top.right.bottom.mas_equalTo(self.view);
+        make.height.mas_equalTo(self.view.mas_height);
+        make.width.equalTo(@(400));
     }];
-    
 }
 
 - (void)setRepresentedObject:(id)representedObject {

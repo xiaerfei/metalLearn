@@ -16,7 +16,7 @@
 - (void)windowDidLoad {
     [super windowDidLoad];
     
-    [self.window setContentSize:NSMakeSize(600, 600)];
+//    [self.window setContentSize:NSMakeSize(400, 300)];
 }
 
 @end

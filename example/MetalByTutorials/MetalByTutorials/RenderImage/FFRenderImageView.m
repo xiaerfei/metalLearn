@@ -160,6 +160,7 @@
     {
         renderPassDescriptor.colorAttachments[0].clearColor = MTLClearColorMake(0.0, 0.5, 0.5, 1.0f); // 设置默认颜色
         id<MTLRenderCommandEncoder> renderEncoder = [commandBuffer renderCommandEncoderWithDescriptor:renderPassDescriptor]; //编码绘制指令的Encoder
+        [renderEncoder pushDebugGroup:@"Draw G-Buffer"];
         [renderEncoder setViewport:(MTLViewport){0.0, 0.0, self.viewportSize.x, self.viewportSize.y, -1.0, 1.0 }]; // 设置显示区域
         [renderEncoder setRenderPipelineState:self.pipelineState]; // 设置渲染管道，以保证顶点和片元两个shader会被调用
         
@@ -177,6 +178,7 @@
         [renderEncoder endEncoding]; // 结束
         
         [commandBuffer presentDrawable:view.currentDrawable]; // 显示
+        [renderEncoder popDebugGroup];
     }
     
     [commandBuffer commit]; // 提交；
