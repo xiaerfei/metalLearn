@@ -8,7 +8,7 @@
 #import "FFRenderImageView.h"
 #import <MetalKit/MetalKit.h>
 #import <CoreImage/CoreImage.h>
-
+#import <Masonry/Masonry.h>
 @interface FFRenderImageView ()<MTKViewDelegate>
 
 @property (nonatomic, strong) MTKView *mtkView;
@@ -41,24 +41,24 @@
     return self;
 }
 
-- (void)updateConstraints {
-    NSDictionary *views = NSDictionaryOfVariableBindings(_mtkView);
-    
-    NSArray *constraintsHorizontal =
-    [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_mtkView]-0-|"
-                                            options:0
-                                            metrics:nil
-                                              views:views];
-    [self addConstraints:constraintsHorizontal];
-    
-    NSArray *constraintsVertical =
-    [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_mtkView]-0-|"
-                                            options:0
-                                            metrics:nil
-                                              views:views];
-    [self addConstraints:constraintsVertical];
-    [super updateConstraints];
-}
+//- (void)updateConstraints {
+//    NSDictionary *views = NSDictionaryOfVariableBindings(_mtkView);
+//
+//    NSArray *constraintsHorizontal =
+//    [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_mtkView]-0-|"
+//                                            options:0
+//                                            metrics:nil
+//                                              views:views];
+//    [self addConstraints:constraintsHorizontal];
+//
+//    NSArray *constraintsVertical =
+//    [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_mtkView]-0-|"
+//                                            options:0
+//                                            metrics:nil
+//                                              views:views];
+//    [self addConstraints:constraintsVertical];
+//    [super updateConstraints];
+//}
 #pragma mark - Private
 - (void)configure {
     // 初始化 MTKView
@@ -67,6 +67,10 @@
     self.mtkView.delegate = self;
     self.viewportSize = (vector_uint2){self.mtkView.drawableSize.width, self.mtkView.drawableSize.height};
     [self addSubview:self.mtkView];
+    [self.mtkView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.bottom.mas_equalTo(self);
+    }];
+    
     
     [self setupPipeline];
     [self setupVertex];

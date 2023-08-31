@@ -29,11 +29,10 @@
     
     self.renderImageView = [[FFRenderImageView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.renderImageView];
-    
+
     [self.renderImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.right.bottom.mas_equalTo(self.view);
-        make.height.mas_equalTo(self.view.mas_height);
-        make.width.equalTo(@(400));
+        make.height.mas_equalTo(self.renderImageView.mas_width);
     }];
 }
 
